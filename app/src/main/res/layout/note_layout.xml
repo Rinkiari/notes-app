@@ -33,11 +33,13 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/noteDesc"
                 android:layout_marginTop="8dp"
-                android:maxHeight="170dp"
+                android:maxLines="1"
+                android:ellipsize="end"
                 android:text="Описание"
                 android:textSize="14sp"
                 android:fontFamily="@font/poppins"
                 android:textColor="@color/pink"/>
+
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>
